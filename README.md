@@ -21,7 +21,9 @@ Input file must be in GenPept format.
 
 Arguments:
   --id gi/locus    Specify identifier type (default: locus)
+  
   -f 0|1|2         Format of organism name selection (default: 0) 
+  
                     0: Abbreviated gene name in shorthand (e.g. H. sapiens).
                     1: Gene name in full species shorthand (e.g. HomSap).
                     2: Full species name (e.g. Homo sapiens).
