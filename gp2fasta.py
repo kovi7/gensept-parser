@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys
 def parse_genpept(file_path, options):
     with open(file_path, 'r') as file:
