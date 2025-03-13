@@ -15,7 +15,7 @@ sequence: MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGG
 
 
 Usage: 
->python gp2fasta.py [--help] <input_file.gp> [--id gi/locus] [-f 0|1|2] [--genename] [-s separator] [-a]
+>gp2fasta.py [--help] <input_file.gp> [--id gi/locus] [-f 0|1|2] [--genename] [-s separator] [-a]
 
 Input file must be in GenPept format.
 
