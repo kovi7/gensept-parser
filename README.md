@@ -1,4 +1,4 @@
-# gensept parser
+# GenPept parser
 
 This CLI tool converts a *.gp format file to a *.fas format file with shorter, but still accurate headers for sequence.
 The tool is able to process multiple records in one *.gp file.
@@ -14,7 +14,9 @@ gene name: INS
 sequence: MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN
 
 
-Usage: python gp2fasta.py [--help] <input_file.gp> [--id gi/locus] [-f 0|1|2] [--genename] [-s separator] [-a]
+Usage: 
+>python gp2fasta.py [--help] <input_file.gp> [--id gi/locus] [-f 0|1|2] [--genename] [-s separator] [-a]
+
 <input_file.gp>  Input file in GenPept format
 
 Arguments:
